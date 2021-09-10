@@ -1,0 +1,163 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox 1 </title>
+    <style>
+        .main{
+            background-color:aqua;
+            height: fit-content;
+            width: 400px;
+            padding: 12px;
+            margin: 20px;
+            border-radius: 20px;
+            border: 2px solid black;
+            
+
+        }
+
+        .main1,.main2,.main3{
+            display: flex;
+        }
+
+        .main1a,.main1b,.main1c{
+            background-color: brown;
+            flex-wrap: nowrap;
+            margin: 12px;
+            height: 120px;
+            width: 120px;
+            padding-left: 5px;
+            border-radius: 12px;
+        }
+
+        .main2a,.main2b,.main2c,.main2d{
+            background-color: brown;
+            flex-wrap: nowrap;
+            margin: 12px;
+            height: 40px;
+            width: 120px;
+            padding-left: 5px;
+            border-radius: 12px;
+        }
+
+        .main3a,.main3b,.main3c,.main3d,.main3e{
+            background-color: brown;
+            flex-wrap: nowrap;
+            margin: 12px;
+            height: 40px;
+            width: 120px;
+            padding-left: 5px;
+            border-radius: 12px;
+        }
+        .main1aa>div{
+            background-color: antiquewhite;
+            height: 20px;
+            width: 20px;
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="main1">
+            <div class="main1a">
+                <h5>1</h5>
+
+                <div class="main1">
+                    <div>
+                        <h5>1</h5>
+                    </div>
+                    <div>
+                        <h5>2</h5>
+                    </div>
+                    <div>
+                        <h5>3</h5>
+                    </div>
+                </div>
+
+                <div class="main2">
+                    <div>
+                        <h5>1</h5>
+                    </div>
+                    <div>
+                        <h5>2</h5>
+                    </div>
+                    <div>
+                        <h5>3</h5>
+                    </div>
+                    <div>
+                        <h5>4</h5>
+                    </div>
+                </div>
+
+
+                <div class="main3">
+                    <div>
+                        <h5>1</h5>
+                    </div>
+                    <div>
+                        <h5>2</h5>
+                    </div>
+                    <div>
+                        <h5>3</h5>
+                    </div>
+                    <div>
+                        <h5>4</h5>
+                    </div>
+                    <div>
+                        <h5>5</h5>
+                    </div>
+                </div>
+
+                
+                
+
+            </div>
+            <div class="main1b">
+                 <h5>2</h5>
+            </div>
+            <div class="main1c">
+                <h5>3</h5>
+           </div>
+        </div>
+
+        <div class="main2">
+            <div class="main2a">
+                <h5>1</h5>
+            </div>
+            <div class="main2b">
+                <h5>2</h5>
+            </div>
+            <div class="main2c">
+                <h5>3</h5>
+            </div>
+            <div class="main2d">
+                <h5>4</h5>
+            </div>
+        </div>
+
+        <div class="main3">
+            <div class="main3a">
+                <h5>1</h5>
+            </div>
+            <div class="main3b">
+                <h5>2</h5>
+            </div>
+            <div class="main3c">
+                <h5>3</h5>
+            </div>
+            <div class="main3d">
+                <h5>4</h5>
+            </div>
+            <div class="main3e">
+                <h5>5</h5>
+            </div>
+        </div>
+
+    
+    
+</body>
+</html>
