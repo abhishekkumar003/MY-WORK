@@ -1,0 +1,107 @@
+/* CSS FORMAT */
+
+body{
+    font-family: 'Baloo Bhaina 2', cursive;
+    margin: 0px;
+    padding: 0px;
+    /*background: url('gallery/back2.png');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-color: grey;
+}
+
+/* header div tags */
+
+.left{
+    display: inline-block;
+    /*border: 2px solid red;*/
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+.left img{
+    width: 110px;
+    display: block;
+    margin: 0px auto;
+}
+.left div{
+    text-align: center;
+    font-size: 32;
+}
+
+.mid{
+    /*border: 2px solid green;*/
+    display: block;    /* to make div in center */
+    width: 40%;
+    margin: 20px auto;  /* to make div in center */
+}
+.right{
+    display: inline-block;
+    /*border: 2px solid blue;*/
+    position: absolute;
+    top: 30px;
+    right: 15px;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;  /* to dipaly all a tag in one line */
+    font-size: 25px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: rgb(53, 38, 38);
+}
+
+.btn{
+    font-family: 'Baloo Bhaina 2', cursive;
+    margin: 0px 9px;
+    background-color: rgb(48, 42, 42);
+    color: white;
+    padding: 5px 20px;
+    font-size: 15px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(221, 187, 136);
+}
+
+
+/* DIV Container */
+
+.container{
+    border: 2px solid white;
+    margin: 84px 60px;
+    padding: 20px 48px;
+    border-radius: 15px;
+    width: 50%;
+
+}
+.container h1{
+    text-align: center;
+}
+.form-group input{
+    font-family: 'Baloo Bhaina 2', cursive;
+    text-align: center;
+    display: block;     /* Display block so that we can make it in center*/
+    margin: 5px auto;   /* this make the input in center*/
+    width: 544px;
+    padding: 6px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    font-size: 20px;
+}
+.container button{
+    display: block;
+    width: 71%;
+    margin: 8px auto;
+}
