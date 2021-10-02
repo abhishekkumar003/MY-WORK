@@ -88,8 +88,8 @@ html{
     height: 100%;         
     width: 100%;
     z-index: -1;   /* so that our main content come front */
-    opacity: 0.9;  /* background color opacity */
-    background-color:coral;
+    opacity: 0.2;  /* background color opacity */
+    background-color:blue;
 }
 
 #home h1{
