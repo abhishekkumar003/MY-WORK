@@ -89,6 +89,7 @@ html{
     width: 100%;
     z-index: -1;   /* so that our main content come front */
     opacity: 0.9;  /* background color opacity */
+    background-color:coral;
 }
 
 #home h1{
